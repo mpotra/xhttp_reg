@@ -34,7 +34,7 @@ defmodule XHTTPReq.MixProject do
   defp deps do
     [
       {:xhttp, "~> 0.1"},
-      {:req, "~> 0.4"},
+      {:req, ">= 0.4.0"},
       # Docs deps only
       {:ex_doc, ">= 0.0.0", only: :docs, runtime: false}
     ]
